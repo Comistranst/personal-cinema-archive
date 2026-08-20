@@ -1,0 +1,13 @@
+# Private source material — never publish these files.
+data/reviews.csv
+data/cleaning_audit.csv
+data/quality_report.json
+data/films.csv
+analysis/
+
+# Local environment and downloaded model cache.
+.venv/
+model/huggingface/
+model/mapping.csv
+__pycache__/
+.streamlit/secrets.toml
